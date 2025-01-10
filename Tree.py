@@ -6,6 +6,6 @@ class Tree:
         self.root = TreeNode(rootValue, None, None)
 
 
-    def add_value(self, value):
+    def read_fromFile(self, value):
         actual = self.root
         while actual.children is not None or actual.children != []:
