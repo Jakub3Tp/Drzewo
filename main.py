@@ -14,3 +14,4 @@ node5 = TreeNode(3, None, None, tree.root)
 tree.add_node(node5, node2)
 
 tree.dfs_show(tree.root)
+tree.bfs_show()
